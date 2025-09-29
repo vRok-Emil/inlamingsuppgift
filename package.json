@@ -1,0 +1,29 @@
+{
+  "name": "inlamning1_emil_ronnqvist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.17.1",
+    "graphql": "^16.11.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/dotenv": "^6.1.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
